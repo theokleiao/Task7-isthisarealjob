@@ -4,8 +4,8 @@
   pip install selenium
   pip install pandas****
  
-Download the data folder and store in directory you want to run the app from.
-Launch command prompt change the directory to same as above. Run the app with this syntax
+Download the cac_scraper.py script and data folder.
+Launch command prompt change the directory to where you saved the cac_scraper.py script and data folder(don't store the script <b>IN<b/> the data folder). Run the app with this syntax
 
 #>python cac_scraper.py aaa
 
