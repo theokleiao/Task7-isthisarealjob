@@ -1,10 +1,12 @@
 # Task7-isthisarealjob
 
-Required libraries
+****Required libraries
   pip install selenium
-  pip install pandas
+  pip install pandas****
  
-download the data folder and store in directory you want to run the app from
+Download the data folder and store in directory you want to run the app from.
+Launch command prompt change the directory to same as above. Run the app with this syntax
+#python cac_scraper.py aaa
 
 The cac scraper launches a selenium webdriver that opens a new chrome window. in this window, it uses a sequential 3 charater combination string (eg. 'aaa', 'aab', 'aac', etc.)to search the cac website. this returns a table of companies that begin with the character combination. the app then scrapes the table data and stores it in a csv file in the data folder.
 it has functionality to allow anyone chose which letter combination the wish to start from, this is valuabe for division of labour. for instance one person searches from 'aaa' to azz. next person 'baa' to 'bzz' and so on
