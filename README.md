@@ -3,6 +3,8 @@
 ****Required libraries****
 pip install selenium
 pip install pandas
+
+requirements Chrome=77
  
 Download the cac_scraper.py script and data folder.
 Launch command prompt change the directory to where you saved the cac_scraper.py script and data folder(<b>DON'T</b> store the script <b>IN</b> the data folder). Run the app with this syntax
