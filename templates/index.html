@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Job Verify</title>
+{% endblock %}
+
+{% block body %}
+    <h1 class='text-center text-light mt-4'>Is This A Real Job?</h1>
+    <div class="row">
+        <div class='col-sm-12 col-xs-12 col-md-6, col-lg-6 mx-auto mt-5'>
+            <div class='bg-light mx-auto p-4 mt-2'>
+                <p class="text-center">This is the first step in our job verification process.<br>
+                    Normally we'd automate the process of searching CAC website, but they implement CAPTCHA.<br>
+                    We're currently scraping the CAC website "semi-automatically", and until that's done,<br>
+                    Our database is severely limited for now, so search hng tech
+                    </p>
+                <div class='d-flex justify-content-center mt-3'>
+                    <form action="">
+                        <div class="form-group">
+                            <a class='btn btn-md bg-dark mr-2 mb-2 text-light form-control' href="{{url_for('company_find')}}">
+                                <p>Search for the company on our CAC database</p>
+                            </a>
+                        </div>
+
+                    </form>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+{% endblock %}
