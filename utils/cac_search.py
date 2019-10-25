@@ -17,6 +17,8 @@ def search(word):
         return cac_db[cac_db['COMPANY NAME'].apply(start)]
     elif len(get_close_matches(word, cac_db['COMPANY NAME'], 5, cutoff=0.7)) > 0:
         return get_close_matches(word, cac_db['COMPANY NAME'], 5, cutoff=0.7)
+    else:
+        return "Not in CAC database"
 
 
 print(search("hng"))
