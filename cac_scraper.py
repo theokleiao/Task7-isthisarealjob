@@ -1,4 +1,5 @@
 import time
+pip install selenium
 from selenium import webdriver
 import pandas as pd
 from selenium.webdriver.common.by import By
@@ -159,6 +160,13 @@ def main():
     args = parser.parse_args()
 
     print(cac_scraper(args.search_string))
+    
+    df= pd.read_csv("cac_db.csv")
+Company = input("Total Nigeria")
+if df['COMPANY NAME'].str.contains(Company).any():
+    print("Company is in CAC database")
+else:
+   print("Company is not registered in CAC database")
 
 
 if __name__ == '__main__':
