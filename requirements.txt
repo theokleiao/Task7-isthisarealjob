@@ -8,12 +8,10 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 gunicorn==19.9.0
 nltk==3.4.5
+monkeylearn==3.5.1
 numpy==1.17.0
-scipy>=0.15.1
-MarkupSafe==1.1.1
-openpyxl==2.6.2
 pandas-datareader==0.7.4
 pathtools==0.1.2
 soupsieve==1.9.3
 Werkzeug==0.15.6
-matplotlib>=1.4.3
+
