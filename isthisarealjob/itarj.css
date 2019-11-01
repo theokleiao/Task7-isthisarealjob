@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("job.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: sans-serif;
+}
+.job-title{
+    margin-top: 100px;
+    color: rgb(14, 1, 1);
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.job-title hi{
+    font-size: 32px;
+    line-height: 10px;
+    }
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}    
